@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+body {
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/03/02/283991/363918c63cde4fb4ade8876bca78bc62-700.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: cornsilk;
+}
+
+#music_bx{
+    border: 2px bold white;
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.301);
+    display: flex;
+    width: 40%;
+    height: 65%;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    color: cornsilk;
+    font-size: 32px;
+}
+
+header.nav_bar{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+}
+
+ul{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 30px;
+    
+    
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+
+li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+
+a{
+    display: block;
+    padding: 14px 16px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+

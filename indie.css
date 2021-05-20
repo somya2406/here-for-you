@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/f1/37/96/f1379680fcfb4b7d0d45b1a40fca03cd.png);
+    
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    }
+
+    h1{
+        font-family: 'Amatic SC', cursive;
+        text-align: right;
+        font-size: 100px;
+        color: whitesmoke;
+        width: 85%;
+    }
+
+    ul a{
+        color: whitesmoke;
+        font: 60px;
+        position: relative;
+        left: 55%;
+        top: 45%;
+        font-family: 'Amatic SC', cursive;
+
+    }
+    ul a li{
+        font-size: 28px;
+    }
+    
+   

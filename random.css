@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+body{
+    background-image: url(https://i0.wp.com/i.pinimg.com/originals/2b/3f/dd/2b3fddc22215461c554db765c21ead5b.png);
+    
+    background-color: gold;
+    background-repeat: no-repeat;
+    background-position-y: 2%;
+    background-position-x: 30%;
+    }
+
+    h1{
+        font-family: 'Amatic SC', cursive;
+        text-align: right;
+        font-size: 100px;
+        color: whitesmoke;
+        width: 95%;
+    }
+
+    ul a{
+        color: blue;
+        
+        position: relative;
+        left: 65%;
+        top: 45%;
+        font-family: 'Amatic SC', cursive;
+
+    }
+    ul a li{
+        font-size: 28px;
+    }
+    
+   
