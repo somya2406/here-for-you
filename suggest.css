@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/236x/c8/d3/82/c8d382d661c1dccec385af6ce9de2276.jpg);
+    background-repeat: no-repeat;
+    background-size: 105ex 110ex;
+    background-color: black;
+    
+
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    transform: translate(51%,0);
+    color: white ;
+}
+
+ul.first{
+    font-family: 'Amatic SC', cursive;
+    transform: translate(52.5%, 0);
+    color: white;
+    font-size: 28px;
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    transform: translate(80%,-740%);
+    color: white ;
+}
+ul.second{
+    font-family: 'Amatic SC', cursive;
+    transform: translate(82%,-200%);
+    color: white;
+    font-size: 28px;
+}
+
+h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    transform: translate(51%,-250%);
+    color: white ;
+}
+ul.third{
+    font-family: 'Amatic SC', cursive;
+    transform: translate(52.5%,-90%);
+    color: white;
+    font-size: 28px;
+}
+h4{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    transform: translate(80%,-650%);
+    color: white ;
+}
+ul.fourth{
+    font-family: 'Amatic SC', cursive;
+    transform: translate(82%,-135%);
+    color: white;
+    font-size: 28px;
+}

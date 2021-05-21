@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-repeat: no-repeat;
+    background-color: darkgoldenrod;
+    background-size: 750px 800px;
+    
+
+    background-position-y: 10%;
+    width: 50%;
+}
+
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    color: midnightblue;
+    
+    
+}
+#movie_box{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.904);
+    width: 40%;
+    position: absolute;
+     font-size: 32px ;
+     font-family: 'Amatic SC', cursive;
+     color: midnightblue;
+     font-weight: 600;
+}
+header.nav_bar{
+    background-color: darkgoldenrod;
+    width: 100%;
+    position: absolute;
+}
+
+ul{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 30px;
+    
+    
+    color: midnightblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+
+li{
+    float: left;
+    border-right: 1px solid darkgoldenrod;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+
+a{
+    display: block;
+    padding: 14px 16px;
+    background-color: midnightblue;
+    color: darkgoldenrod;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+li a:hover{
+    background-color: darkgoldenrod;
+    color: midnightblue;
+}
+
