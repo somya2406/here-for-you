@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devjam</title>
+</head>
+<style>
+   
+    .heading{
+        
+        text-align: center;
+        font-size: 1.3cm;
+        margin-top: 1cm;
+        color: rgb(111, 53, 245);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-shadow: 0 0 4px #FF0000, 0 0 5px rgb(111, 53, 245);
+    }
+  
+    body{
+    border-style: double;
+    border-color:  rgb(111, 53, 245);
+    border-radius: 1cm;
+    border-width: 2mm;
+   
+    padding-left: 1cm;
+    padding-right: 1cm;
+   
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min height:100vh;
+}
+
+.container{
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: inline;
+ 
+   }
+ .container.box{
+     position: relative;
+     width: 400px;
+     padding: 40px;
+     background: rgb(184, 162, 187);
+     
+     border-radius: 4PX;
+     margin: 20PX;
+     box-sizing: border-box;
+     overflow: hidden;
+    
+ }  
+ .box{
+     margin-left: 1cm;
+     margin-right: 1cm;
+     height: 5cm;
+     width: 3cm;
+    
+}
+ .container.box.content{
+     font-size: 20px;
+     margin:  0;
+     
+     padding: 0;
+
+ }  
+ .content{
+    box-shadow: 20px 20px 10px grey;
+ }
+
+ a{
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: rgb(111, 53, 245);
+     border-radius: 4px;
+     text-decoration: none;
+     color: rgb(15, 5, 26);
+     font-weight: 500;
+     margin-top: 20px;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.2 );
+}
+.end{
+  text-align: center;
+  font-style: italic;
+}
+
+.container.box:before{
+    content: ;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+   background:rgba(255,255,255,0.2); 
+   z-index: 2;
+   pointer-events: none;}
+   .para,.para3,.para5{
+       margin-right: 50%;
+       font-size: larger;
+   }
+   
+
+ .end img{
+    text-align: center;
+
+}
+
+.covid{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(111, 53, 245);
+}
+.vaccine{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(111, 53, 245);
+}
+.icons {
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    font-size: larger;
+    margin-left: 42%;
+    margin-bottom: 0.5cm;
+}
+.precautions{
+    
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(111, 53, 245);
+  
+
+}
+
+a:hover{
+    color: rgb(218, 208, 224);
+    
+    
+    }
+    
+  
+    footer{
+        height: 6cm;
+    }
+
+    body{
+       background :url(main.jpg);
+       background-size:cover ;
+       background-attachment: fixed;  }
+
+       .symptoms{
+        text-align: right;
+       font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(111, 53, 245);}
+
+.long, .sideeffects{
+
+    text-align: right;
+       font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(111, 53, 245);}
+
+
+
+    .button a{background-color: #8c55f3;
+        text-align: center;
+      margin-right:  70%;
+      color: #000;
+
+    }
+    .button a:hover{
+        border-style: none;
+        color: red;
+       
+    }
+    .para2{
+        margin-left: 50%;
+        font-size: larger;
+    }
+
+    .para4{
+        margin-left: 50%;
+        font-size: larger;
+    }
+
+    .para6{
+        margin-left: 50%;
+        font-size: larger;
+    }
+    
+  
+    
+</style>
+
+<body>
+
+    
+    <div class="heading"><H1><i>HERE FOR YOU<img src="https://img.icons8.com/bubbles/100/000000/trust.png"/></i></H1>
+    </div>
+<div class="nav">
+<div class="container">
+    <div class="box">
+        <div class="content">
+<a href="http://127.0.0.1:5500/covidresources.HTML">COVID HELPLINE RESOURCES</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="box">
+        <div class="content">
+<a href="http://127.0.0.1:5500/docter.html">CONNECT WITH DOCTER
+</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="box">
+        <div class="content">
+<a href="donate.html">BE A COVID HERO
+</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="box">
+        <div class="content">
+<a href="http://127.0.0.1:5500/covidtracker.html">COVID-19 CASES UPDATES</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="box">
+        <div class="content">
+<a href="http://127.0.0.1:5500/positivity.html">LET'S BEAT COVID</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="box">
+        <div class="content">
+<a href="">A FUN ELEMENT FOR ALL</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="box">
+        <div class="content">
+<a href="http://localhost:5000/">CONTACT US<BR>HERE</a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+<div class="covid"><h2>What is covid-19?</h2></div>
+<div class="para"><p>COVID-19 is the
+     disease caused by a new coronavirus
+      called SARS-CoV-2.  WHO first learned
+      his new virus on 31 December 2019, 
+      following a report of a cluster of 
+      cases of ‘viral pneumonia’ in Wuhan,
+     People’s Republic of China.</p></div>
+
+
+
+
+     <div class="symptoms"><h1>What are the syptoms of covid-19?</h1></div>       
+        <div class="para2">
+            The most common symptoms of COVID-19 are-
+<ul>
+    <li>Fever</li>
+    <li>Dry cough</li>
+        <li>Fatigue</li>
+</ul>
+Other symptoms that are less common and may affect some patients include:
+<ul>
+<li>Nasal congestion,</li>
+<li>Conjunctivitis (also known as red eyes)</li>
+<li> Sore throat,</li>
+<li>Headache,</li>
+<li>Nausea or vomiting,</li>
+<li>Diarrhea,</li>
+<li>Chills or dizziness.</li>
+</ul>
+Symptoms of severe COVID‐19 disease include:
+<ul>
+<li>Shortness of breath,</li>
+    
+<li>Loss of appetite,</li>
+<li>Confusion,</li>
+<li>Persistent pain or pressure in the chest,</li>
+<li>High temperature (above 38 °C).</li>
+</ul>
+Other less common symptoms are:
+<ul>
+   
+       
+            <li>Reduced consciousness (sometimes associated with seizures),</li>
+                <li>Anxiety,</li>
+                    <li>Depression,</li>
+                        <li>Sleep disorders,</li>
+                            <li>More severe and rare neurological complications such as strokes, brain inflammation, delirium and nerve damage.</li>
+                                <li>People of all ages who experience fever and/or cough associated with difficulty breathing or shortness of breath, chest pain or pressure, or loss of speech or movement should seek medical care immediately. If possible, call your health care provider, hotline or health facility first, so you can be directed to the right clinic.
+
+Loss of taste or smell</li></ul>
+
+        </div>
+
+        <div class="precautions"><b>Precautions to take for covid-19..</b></div>
+        <div class="para3">
+            <ul>
+                <Li>
+                    Regularly and thoroughly clean your hands with an 
+                    alcohol-based hand rub or wash them with soap and water.
+                     This eliminates germs 
+                    including viruses that may be on your hands.
+                </Li>
+                <li>
+                    Clean and disinfect surfaces frequently especially those which are
+                     regularly touched, 
+                    such as door handles, faucets and phone screens.
+                </li>
+
+                <li>
+                    Avoid touching your eyes, nose and mouth. Hands touch many
+                     surfaces and can pick up viruses. Once contaminated, hands can
+                      transfer the virus to your eyes, nose or mouth. From there,
+                     the virus can enter your body and infect you.
+                </li>
+                <li>
+                    Make wearing a mask a normal part of being around other people. 
+                    The appropriate use, storage and cleaning or disposal are
+                     essential to make masks as effective as possible.
+                </li>
+
+                <li>
+                    Maintain at least a 1-metre distance between yourself and others to 
+                    reduce your risk of infection when they cough, sneeze or speak. Maintain
+                     an even greater distance between yourself and others when indoors. 
+                    The further away, the better.
+                </li>
+            </ul>
+        </div>
+
+        <div class="long">
+            <b>How long does it take to develop <br>symptoms of covid-19</b>
+        </div>
+<div class="para4"><br>
+    The time from exposure to COVID-19 to the moment when
+     symptoms begin is, on average, 5-6 days and can range 
+     from 1-14 days. This is why people who have been exposed
+      to the virus are advised to remain at home and stay away
+       from others, for 14 days, in order to prevent the spread 
+       of the virus,
+     especially where testing is not easily available.
+</div>
+
+<div class="vaccine">
+  <b>  Are COVID-19 vaccines safe?</b>
+</div>
+<div class="para5">
+    <Br>
+    Vaccine safety is always a top priority, and this is no different for COVID-19 vaccines. All vaccines go through clinical trial phases before they are approved for use in the population. These trials aim to ensure the safety and ability of the vaccine to protect against the disease (efficacy).
+
+The vaccines that are being developed against 
+COVID-19 are following these same phases.
+ COVID-19 vaccines will not be approved or
+  introduced in countries for use in the general
+   population until their safety has been proven to
+    regulatory agencies. Likewise, WHO will not grant
+     an Emergency Use Listing until it has analyzed all
+      of the trial data. After COVID-19 vaccines are
+       approved, monitoring for safety continues. This
+        monitoring is a normal part of 
+immunization programs and is done for all vaccines.
+</div>
+
+<div class="sideeffects">
+  <b> What are the most common side <br>effects after getting vaccinated?</b>
+</div><br>
+
+<div class="para6">
+
+    After getting vaccinated, you might have some side effects,
+     which are normal signs that your body is building
+      protection. Common side effects are pain, redness,
+       and swelling in the arm where you received the shot,
+        as well as tiredness, headache, muscle pain, chills,
+         fever, and nausea throughout the rest of the body.
+          These side effects could affect your ability to do
+           daily 
+    activities, but they should go away in a few days.
+</div>
+
+        <div class="end">
+            <h2>We hope you remain healthy and safe!</h2><img src="https://img.icons8.com/cotton/64/000000/smiling-face-with-hearts-icon.png"/>
+            </div>
+
+            <footer>
+                <hr>
+          
+                <div class="button"> <a href="https://docs.google.com/forms/d/e/1FAIpQLScpQVL8XOdkg_ZWwk25O5Dun46ny-t6rYcjb-GoUcxmMAP_EQ/viewform?usp=sf_link">share your feelings here</a></div>
+            
+                <div class="icons"><img src="https://img.icons8.com/officexs/40/000000/instagram-new.png"/>
+               &nbsp;&nbsp;     <img src="https://img.icons8.com/officexs/40/000000/twitter.png"/>
+               &nbsp;&nbsp;      <img src="https://img.icons8.com/android/48/4a90e2/facebook-new.png"/>
+               &nbsp;&nbsp;      <img src="https://img.icons8.com/color/48/4a90e2/youtube-music.png"/>
+                </div>
+                
+      
+            </footer>
+ 
+
+    
+</body>
+</html>

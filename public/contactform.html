@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{ 
+
+    background-position: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+    font-family:sans-sarif;
+
+}
+
+
+.contact-title{
+    margin-top: 100px;
+    color:antiquewhite;
+    text-transform: uppercase;
+    transition: all4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+  
+
+}
+
+.contact-title h2{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.contact-form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+#name{width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid rgb(229, 233, 219);
+color: rgb(245, 239, 239);
+font-size: 18px;
+margin-bottom: 16px;
+
+}
+#email{
+
+    width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid rgb(229, 233, 219);
+color: rgb(252, 243, 243);
+font-size: 18px;
+margin-bottom: 16px;
+
+}
+
+#subject{
+    width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid rgb(229, 233, 219);
+color: rgb(245, 239, 239);
+font-size: 18px;
+margin-bottom: 16px;
+
+}
+
+#message{
+
+    width: 600px;
+background: transparent;
+border: none;
+outline: none;
+border-bottom: 1px solid rgb(229, 233, 219);
+color: rgb(248, 241, 241);
+font-size: 18px;
+margin-bottom: 16px;
+
+}
+
+.submit{
+    font-size: 0.7cm;
+    border-radius: 2px;
+    background: transparent;
+    border-color: white;
+    color: aliceblue;
+}
+.submit:hover{
+    color: black;
+}
+</style>
+<body background="https://toppng.com/uploads/preview/textured-backgrounds-for-websites-1155398483840bc0kagkc.jpg">
+    <div class="form-container">
+        <div class="contact-title">
+            <h1>
+                say hello
+            </h1>
+            <h2>
+                we are always ready to serve you
+            </h2>
+  </div>
+         
+  <form class="contact-form">
+            <input type="text" id="name" placeholder="full name"><br>
+            <input type="text" id="email" placeholder="email"><br>
+            <input type="text" id="subject" placeholder="subject"><br>
+           
+<textarea name="message" cols="10" rows="10" id="message">
+
+</textarea><br>
+<input type="submit" class="submit" value="send message">
+        </form>
+    </div>
+</body>
+<script>
+  const contactform = document.querySelector('.contact-form');
+ let name = document.getElementById('name');
+ let email = document.getElementById('email');
+ let subject = document.getElementById('subject');
+ let message = document.getElementById('message');
+
+
+  contactform.addEventListener('submit',(e)=>{
+      e.preventDefault();
+
+      let formData = {
+          name: name.value,
+          email: email.value,
+          subject: subject.value,
+          message: message.value,
+
+      }
+
+ let xhr = new XMLHttpRequest();
+xhr.open('POST','/');
+xhr.setRequestHeader('content-type','application/JSON');
+xhr.onload = function(){
+    console.log(xhr.responseText);
+    if(xhr.responseText=='success'){
+        alert('email sent');
+        name.value='';
+        email.value='';
+        subject.value='';
+        message.value='';
+    }else{
+        alert('something went wrong!')
+    }
+}
+xhr.send(JSON.stringify(formData));
+  })
+   
+</script>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid-19 updates</title>
+    <link rel="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<style>
+    .container{
+        margin-top: 2cm;
+    }
+    
+    .button{
+        background-color: rgb(119, 106, 90);
+
+        
+    }
+    body{
+       background :url();
+       background-size: ;
+       background-position: ;
+   }
+
+   
+   .cont{
+       width: 70%;
+   }
+
+   h1{
+       text-align: center;
+       font-size:46px;
+   }
+   #canvas{
+       width: 100%;
+   }
+body{
+    background: url(tracker.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+   
+</style>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">COVID-19 CASES LIVE TRACKER IN INDIA</h1>
+    <br><br>
+    <table class="table">
+        <thead>
+          <tr>
+            <th>Total cases</th>
+            <th>Total deaths</th>
+            <th>Total recovered</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="success" id="data">
+              </tr>  
+
+
+          </tr>
+        </tbody>
+      </table>
+      <br> <br>
+      <button onclick="refreshData()" class="btn btn-danger btn-block">
+          Refresh
+      </button>
+    </div>
+
+    
+    
+ 
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    init()
+
+    function init(){
+        var url="https://api.covid19api.com/summary"
+var data=''
+        $.get(url,function(data){
+            console.log(data.Countries[76])
+
+         var data = `
+
+            <td>${data.Countries[76].TotalConfirmed}</td>
+            <td>${data.Countries[76].TotalDeaths}</td>
+           
+            <td>${data.Countries[76].TotalRecovered}</td>
+
+            `
+
+            
+            $("#data").html(data)
+            
+          
+        })
+    }
+
+    function refreshData(){
+        clearData()
+    }
+    function clearData(){
+        $("#data").empty()
+        init()
+    }
+
+
+</script>
+</html>

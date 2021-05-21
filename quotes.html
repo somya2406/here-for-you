@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'KoHo', sans-serif;
+    }
+    
+    body{ background: url();
+    background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        box-sizing: 0 2px 8px black;
+        width: 600px;
+        background-color: rgb(187, 231, 248);
+        margin: 10px;
+        opacity:initial;
+        border-radius: 50px;
+    }
+    #quote{
+        font-size: larger;
+        text-shadow:1cm;
+        font-style: oblique;
+        text-align: center;
+        color: rgb(152, 29, 177);
+    }
+    #button{
+        margin-top: 1.5cm;
+        font-size: larger;
+        font-style: normal;
+        font-weight: 200;
+        color: rgb(221, 221, 21);
+        background-color: blue;
+    }
+    hr{
+        margin: 10px 0;
+        width: 60%;
+    }
+    body{
+        background: url(quotes.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="icon"><img src="https://img.icons8.com/fluent/48/000000/apple-music-lyrics.png"/></div>
+    <h1>
+   START YOUR DAY WITH MOTIVATION<br>
+<br>    </h1>
+  <b>  <div id="quote"></div></b>
+    <hr>
+    <button id ="button" onclick="newQuote()">new quote</button>
+</div>
+<script>
+    var quotes=[ 'It is because of hope that you suffer. It is through hope that you’ll change things.',
+    'Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.',
+    'To have faith is to trust yourself to the water. When you swim you do not grab hold of the water, because if you do you will sink and drown. Instead you relax, and float.',
+    'Faith is unseen but felt, faith is strength when we feel we have none, faith is hope when all seems lost.',
+    'No matter what has happened to you in the past or what is going on in your life right now, it has no power to keep you from having an amazingly good future if you will walk by faith in God. God loves you! He wants you to live with victory over sin so you can possess His promises for your life today',
+    'I believe if you keep your faith, you keep your trust, you keep the right attitude, if you are grateful, you will see God open up new doors.',
+    'Hearing how God is moving in other places encourages and inspires our faith for what God wants to do in our own corner of the world.'    
+    ]
+    function newQuote(){
+        var random = Math.floor(Math.random()*(quotes.length));
+        document.getElementById('quote').innerHTML = quotes[random];
+    }
+</script>
+
+</body>
+</html>
