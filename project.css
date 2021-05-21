@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+
+
+
+
+body {
+    text-align:center;
+   font-family: 'Amatic SC', cursive;
+   font-size: 70px;
+   background-color: chartreuse;
+   color: darkgreen;
+
+  }
+  canvas {
+    border: 5px solid darkgreen;
+    height: 70%;
+    width: 70%;
+    
+  }
