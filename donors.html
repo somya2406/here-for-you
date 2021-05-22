@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donor Registration</title>
+    <link rel="stylesheet" href="donorscss.css" type="text/css">
+</head>
+<body>
+    <div class = "main">
+    <div class = "details">
+        <h2>DONOR REGISTRATION</h2>
+        <form id="details" action="donorsconnect.php" method="post">
+            <div>
+            <label>First Name :</label>
+            <br>
+            <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+            <br><br>
+            </div>
+            <div>
+            <label>Last Name:</label>
+            <br>
+            <input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+            <br><br>
+            </div>
+            <div>
+            <label>Have you ever tested Corona positive:</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="1" id="yes">
+            &nbsp;
+            <span id="yes">YES</span>
+            <input type="radio" name="1" id="no">
+            &nbsp;
+            <span id="no">NO</span>
+            <br><br>
+            </div>
+            <div>
+            <label>Date of recovery:</label>
+            <br>
+            <input type="date" name="date" id="name" placeholder="DD/MM/YYYY" required>
+            <br><br>
+            </div>
+            <div>
+            <label>Blood Group:</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <br>
+            <input type="radio" id="A+" name="bloodgrp" value="A+">
+            &nbsp;
+            <span id="A+">A+</span>
+            <br>
+            <input type="radio" id="A-" name="bloodgrp" value="A-">
+            &nbsp;
+            <span id="A-">A-</span>
+            <br>
+            <input type="radio" id="B+" name="bloodgrp" value="B+">
+            &nbsp;
+            <span id="B+">B+</span>
+            <br>
+            <input type="radio" id="B-" name="bloodgrp" value="B-">
+            &nbsp;
+            <span id="B-">B-</span>
+            <br>
+            <input type="radio" id="AB+" name=" bloodgrp" value="AB+">
+            &nbsp;
+            <span id="AB+">AB+</span>
+            <br>
+            <input type="radio" id="AB-" name="bloodgrp" value="AB-">
+            &nbsp;
+            <span id="AB-">AB-</span>
+            <br>
+            <input type="radio" id="O+" name="bloodgrp" value="O+">
+            &nbsp;
+            <span id="O+">O+</span>
+            <br>
+            <input type="radio" id="O-" name="bloodgrp" value="O-">
+            &nbsp;
+            <span id="O-">O-</span>
+            <br>
+            <input type="radio" id="not known" name="bloodgrp" value="notknown">
+            &nbsp;
+            <span id="not known">Not Known</span>
+            <br><br>
+            </div>
+            <div>
+            <label>Have you been vaccinated in last 14 days:</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="2" id="yes">
+            &nbsp;
+            <span id="yes">YES</span>
+            <input type="radio" name="2" id="no">
+            &nbsp;
+            <span id="no">NO</span>
+            <br><br>
+            </div>
+            <div>
+            <label>Do you consume alcohol?:</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="3" id="yes">
+            &nbsp;
+            <span id="yes">YES</span>
+            <input type="radio" name="3" id="no">
+            &nbsp;
+            <span id="no">NO</span>
+            <br><br>
+            </div>
+            <div>
+            <label>Age:</label>
+            <br>
+            <input type="number" name="age" id="age" placeholder="Enter your age" required>
+            <br><br>
+            </div>
+            <div>
+            <label>Gender:</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male" value="m">
+            &nbsp;
+            <span id="male">Male</span>
+            <input type="radio" name="gender" id="female" value="f">
+            &nbsp;
+            <span id="male">Female</span>
+            <br><br>
+            </div>
+            <div>
+            <label>Phone number:</label>
+            <br>
+            <input type ="number" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <br><br>
+            </div>
+            <div>
+            <label>Email:</label>
+            <br>
+            <input type ="email" name="email" id="email" placeholder="Enter your valid email id" required >
+            <br><br>
+            </div>
+            <div>
+            <label>State:</label>
+            <br>
+            <input type="text" name="state" id="state" placeholder="Enter your state here" required>
+            <br><br>
+            </div>
+            <div>
+            <label>District:</label>
+            <br>
+            <input type="text" name="district" id="district" placeholder="Enter your district here" required>
+            <br><br>
+            </div>
+            <div>
+            <label>City:</label>
+            <br>
+            <input type="text" name="city" id="city" placeholder="Enter your city here" required>
+            <br><br>
+            </div>
+            <div>
+            <label>Address:</label>
+            <br>
+            <input type="text" name="address" id="address" placeholder="Enter your address here">
+            <br><br>
+            </div>
+            <div>
+            <label>Pin Code:</label>
+            <br>
+            <input type ="number" name="pincode" id="pincode" placeholder="Enter your pincode here" required>
+            <br><br>
+            </div>
+            <div>
+            <label>Any message for us:</label>
+            <br>
+            <input type="text" name="message" id="message" placeholder="Write your message here">
+            <br><br>
+            </div>
+            <div>
+            <label>The information provided here is complete and correct to the best of my knowledge. I authorize this site to display my Name, Mobile/telephone Number,Email Address and/or postal address to the person who is willing to donate Plasma.</label>
+            <br><br>
+            <input type="radio" name="accept" id="accept">
+            &nbsp;
+            <span id="accept">I accept all terms and conditions</span>
+            <br><br>
+            </div>
+            <div>
+            <input type="submit" value="Register" name="submit" id="submit">
+            </div>
+        </form>
+    </div>   
+    </div>
+    
+</body>
+</html>
