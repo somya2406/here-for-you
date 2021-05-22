@@ -63,12 +63,19 @@ _This part has a simple snake game, Just for some distraction._
 
 ![](https://user-images.githubusercontent.com/81457490/119225215-145e3d00-bb20-11eb-940c-3dda1892f57a.png "Snake Game")
 
+![Animated GIF-downsized](https://user-images.githubusercontent.com/81457490/119226820-b2ee9c00-bb28-11eb-8441-e2f3cac2dcfb.gif)
+
+
 ### 7. Contact Us and Share your feelings space.
 _Contact Us part will help people reach out to us if they will face any kind of problem while using the website and the share your feelings area is a google form
 creted just for people if they have anything they want to share because sometimes all we need is someone to listen to us without judging and we would gladly
 be that someone for our people._
 
 ![](https://user-images.githubusercontent.com/81457490/119225212-12947980-bb20-11eb-940c-c97ae5c08a73.png "Sharing Space")
+
+
+## Working of Donor Finder
+In
 
 
 
