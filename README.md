@@ -25,7 +25,7 @@ button there or you can find the available plasma donor near you and their conta
 _This part of the website have one form for the doctors willing to help people, they can register themselves as volunteers and the other part of this page will help people
 find willing doctors in their locality so that they can reach out to them in case of any emergency without any delay._
 
-[](https://user-images.githubusercontent.com/81457490/119225209-10321f80-bb20-11eb-88b5-d229c60a1e66.png "Connect with Doctor")
+![](https://user-images.githubusercontent.com/81457490/119225209-10321f80-bb20-11eb-88b5-d229c60a1e66.png "Connect with Doctor")
 
 ### 3.Be A Covid Hero
 _This part of the website is asking people to come forward, to play their part in this battle against covid by donating to some of the trusted NGOs
@@ -73,9 +73,16 @@ be that someone for our people._
 
 ![](https://user-images.githubusercontent.com/81457490/119225212-12947980-bb20-11eb-940c-c97ae5c08a73.png "Sharing Space")
 
+![Screenshot 2021-05-22 184008](https://user-images.githubusercontent.com/81457490/119228104-0f54ba00-bb2f-11eb-8c5d-ba205c722b4b.png)
+
 
 ## Working of Donor Finder
-In
+In this GIF you can see the working of Donor Finder. One only needs to enter their state name to find all the registered plasma donor.
+
+![Animated GIF-downsized (1)](https://user-images.githubusercontent.com/81457490/119228111-12e84100-bb2f-11eb-93e7-dcf273af42d9.gif)
+
+
+## Here For You 
 
 
 
