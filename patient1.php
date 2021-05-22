@@ -14,12 +14,11 @@
 }
         </style>
 </head>
-<body><h2><form action="" method="POST">
-    Search by specialization 
-    <label for="search" > search  </label>
-    <input type="text" id="search" placeholder="Type for specialization" name="search">
-</form>
-</h2>
+<body>
+<h1>Want to consult a doctor?</h1>
+<br>
+<h2>we are here to help you out 🙂</h2>
+<h2>Get an appointment with any doctor you want </h2>
     <h2> <br><br>
  DO YOU WANT LIST OF DOCTORS AVAILABLE
 
