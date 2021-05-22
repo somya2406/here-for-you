@@ -1,0 +1,19 @@
+#whole {
+  background-color: #56cfe1;
+  text-align: center;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin: 0.2em, 0;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 30px;
+}
+#heading {
+  text-align: center;
+}
+.form-check-input {
+  text-align: center;
+  display: flex;
+}
