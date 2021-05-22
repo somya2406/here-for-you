@@ -16,7 +16,7 @@ ease up a little bit. We tried to add every possible feature in it that we could
 ## Unique Features:
 ### 1.Covid Helpline Resource
 _This part of the website gives you all the information about the helpline numbers, Remdesivir Injections availaibility, Information
-about the groups where people can find plasma and brief information about plasma donation. You can actually DONATE plasma by clicking on the 
+about the groups where people can find plasma and brief information about plasma donation. You can actually register yourself to DONATE plasma by clicking on the 
 button there or you can find the available plasma donor near you and their contacting information._
 
 ![](https://user-images.githubusercontent.com/81457490/119225221-17f1c400-bb20-11eb-9c9c-7c5ed8ff8aa4.png "Covid Helpline Resource Page")
@@ -34,13 +34,13 @@ working constantly for us._
 ![](https://user-images.githubusercontent.com/81457490/119225648-8f285780-bb22-11eb-90ff-80b46150e09e.png "donation page")
 
 ### 4. Covid-19 Cases Updates
-_It is a live covid cases tracker, it will inform people about total cases, total deaths and number of patient recovered_
+_It is a live covid cases tracker, it will inform people about total cases, total deaths and number of patient recovered._
 
 ![](https://user-images.githubusercontent.com/81457490/119225229-1e803b80-bb20-11eb-84b0-0b6fd6c2f9ca.png "covid tracker")
 
 ### 5. Let's Beat Covid
-_This part of the website is to help people forget abot all this chaos just for a little while, Guidind them about their mental health and
-encouraging them to exercise with a whole page design just to guide them about the yoga practices which will be helpful in these tough times.
+_This part of the website is to help people forget about all this chaos just for a little while, Guiding them about their mental health and
+encouraging them to exercise with a whole page designed just to guide them about the yoga practices which will be helpful in these tough times.
 It also have some really soothing music and movie recommendations, to help people relax and feel better. It have a quote generator too, to remind you about the
 positive aspects of life._
 
@@ -68,7 +68,7 @@ _This part has a simple snake game, Just for some distraction._
 
 ### 7. Contact Us and Share your feelings space.
 _Contact Us part will help people reach out to us if they will face any kind of problem while using the website and the share your feelings area is a google form
-creted just for people if they have anything they want to share because sometimes all we need is someone to listen to us without judging and we would gladly
+created just for people if they have anything they want to share because sometimes all we need is someone to listen to us without judging and we would gladly
 be that someone for our people._
 
 ![](https://user-images.githubusercontent.com/81457490/119225212-12947980-bb20-11eb-940c-c97ae5c08a73.png "Sharing Space")
