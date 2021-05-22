@@ -34,6 +34,7 @@ error_reporting(0);
                     <input type="text" id="specialization" placeholder="Type your specialization"
                         name="specialization"><br><br>
                     <!-- <label for="timings">Timings you at which you will be avalable</label><br> -->
+                   <table id="check">
                     <label for="gender">Gender</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="gender" id="gender" value="m">
@@ -47,7 +48,7 @@ error_reporting(0);
                             Female
                         </label>
                     </div>
-
+</table>
                     <label for="fee">Consultation fee</label>
                     <input type="text" id="fee" name="fee"><br><br>
                     <label for="number">Mobile number</label>
@@ -59,7 +60,7 @@ error_reporting(0);
                     <div class="d-grid gap-2">
                         <!-- <button class="btn btn-primary" type="button">SUBMIT</button> -->
                         <!-- <a href="done.html">submit</a> -->
-                        <button name="submit"input type="submit">Replace document </button>
+                        <button name="submit" id="submit" input type="submit">Submit my details </button>
 
                         <!-- <script>
                             function myFunction() {
