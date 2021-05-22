@@ -24,6 +24,7 @@ h1{
     font-size: 40px;
     transform: translate(51%,0);
     color: white ;
+    margin-left: 6cm;
 }
 
 ul.first{
@@ -31,6 +32,7 @@ ul.first{
     transform: translate(52.5%, 0);
     color: white;
     font-size: 28px;
+    margin-left: 6cm;
 }
 h2{
     font-family: 'Amatic SC', cursive;
@@ -50,12 +52,14 @@ h3{
     font-size: 40px;
     transform: translate(51%,-250%);
     color: white ;
+    margin-left: 6cm;
 }
 ul.third{
     font-family: 'Amatic SC', cursive;
     transform: translate(52.5%,-90%);
     color: white;
     font-size: 28px;
+    margin-left: 6cm;
 }
 h4{
     font-family: 'Amatic SC', cursive;
