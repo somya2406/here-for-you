@@ -17,7 +17,7 @@ about the groups where people can find plasma and brief information about plasma
 button there or you can find the available plasma donor near you and their contacting information._
 
 ### 2. Connect With A Doctor
-_This part of the website have one form for the doctors willing to help people, they can register themselves as volunteers and the part of this page will help people
+_This part of the website have one form for the doctors willing to help people, they can register themselves as volunteers and the other part of this page will help people
 find willing doctors in their locality so that they can reach out to them in case of any emergency without any delay._
 
 ### 3.Be A Covid Hero
